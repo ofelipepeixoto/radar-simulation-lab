@@ -1,0 +1,30 @@
+{
+  "example_kind": "manual_accounting_reference_not_engine_output",
+  "synthetic": true,
+  "instrument": "SYNTH-UNIT",
+  "unit": "SIM",
+  "model": "fictional_linear_instrument_multiplier_one",
+  "leverage": "1",
+  "initial_equity": "1000.000",
+  "quantity": "1",
+  "direction": "long",
+  "entry_price": "100",
+  "exit_price": "102",
+  "fee_rate_per_fill": "0.001",
+  "entry_fee": "0.100",
+  "exit_fee": "0.102",
+  "gross_realized_pnl": "2.000",
+  "modeled_costs": "0.202",
+  "net_modeled_pnl": "1.798",
+  "final_equity": "1001.798",
+  "open_quantity": "0",
+  "slippage": "0",
+  "drawdown": null,
+  "drawdown_unavailable_reason": "no_timestamped_equity_path_in_this_manual_example",
+  "limitations": [
+    "not_an_approved_product_schema",
+    "no_implemented_engine_or_strategy",
+    "no_market_or_account_data",
+    "no_funding_liquidation_taxes_or_cash_flows"
+  ]
+}

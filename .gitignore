@@ -1,0 +1,16 @@
+# Research inputs, private records and third-party assets do not belong here.
+upload/
+deliverables/
+raw/
+private/
+*.har
+*.zip
+*.log
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+node_modules/
+
+# Explicit inclusion review is still required; this file is not a security check.
